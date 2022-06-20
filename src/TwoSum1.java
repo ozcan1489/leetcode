@@ -24,7 +24,7 @@ public class TwoSum1 {
             if (map.containsKey(target - nums[i]))
                 return new int[]{map.get(target - nums[i]),i+1};
         return new int[]{0,0};
-        
+
     }
 
 }
